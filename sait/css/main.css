@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Suez+One');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Шапка сайта */
+
+.header1{
+  background-color:#15172b ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 700px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.logoimage{
+  margin-top: 30px;
+  width: 50px;
+  
+}
+
+ul{
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.background_main{
+  background-image: url(img/124.jpeg);
+  height: 800px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+
+h2 > a {
+  color: black;
+}
+
+#top{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.img{
+  background-image: url(../img/132.gif);
+  background-repeat: no-repeat;
+  height: 1000px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
